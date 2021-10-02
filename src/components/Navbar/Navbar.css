@@ -1,0 +1,25 @@
+.navbar {
+  padding: 1.2em;
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #f3f3f3;
+}
+
+.navbar__title {
+  font-size: 1.6em;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    text-align: center;
+  }
+}
